@@ -5,8 +5,4 @@ const names = [
     "London", "The mall", "Ryman Auditorium", "The Great Wall of China"
 ];
 
-console.log("All Pace Names");
-
-for (const name of names) {
-  console.log(name);
-}
+names.forEach(name => console.log(name));
